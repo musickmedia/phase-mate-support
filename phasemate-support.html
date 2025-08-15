@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PhaseMate – Support</title>
+  <meta name="description" content="Hilfe, Kontakt und FAQ zur iOS-App PhaseMate.">
+  <style>
+    :root { --max: 900px; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, sans-serif; line-height: 1.6; color: #0f172a; background: #f8fafc; }
+    header { background: #111827; color: #fff; padding: 2.5rem 1rem; }
+    header .wrap { max-width: var(--max); margin: 0 auto; display: flex; align-items: center; gap: 1rem; }
+    header .logo { width: 56px; height: 56px; border-radius: 12px; background: linear-gradient(135deg,#2563eb,#f59e0b); display: inline-block; }
+    header h1 { margin: 0; font-size: 1.75rem; }
+    main { max-width: var(--max); margin: 0 auto; padding: 2rem 1rem 3rem; }
+    section { background: #fff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 1.25rem; margin-bottom: 1rem; }
+    h2 { margin-top: 0; font-size: 1.25rem; }
+    .cta { display: inline-block; padding: .75rem 1rem; border-radius: 10px; border: 1px solid #111827; text-decoration: none; font-weight: 600; }
+    .cta:hover { background: #111827; color: #fff; }
+    ul { padding-left: 1.2rem; }
+    footer { max-width: var(--max); margin: 0 auto; padding: 2rem 1rem 4rem; color: #475569; font-size: .95rem; }
+    .muted { color: #64748b; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+    @media (min-width: 720px) { .grid { grid-template-columns: 1fr 1fr; } }
+    code { background: #f1f5f9; padding: .1rem .35rem; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="logo" aria-hidden="true"></div>
+      <div>
+        <h1>PhaseMate – Support</h1>
+        <p class="muted">Hilfe, Kontakt & FAQ</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Kontakt</h2>
+      <p>Du brauchst Hilfe oder hast Feedback? Schreib uns eine E‑Mail – wir antworten in der Regel innerhalb von 2 Werktagen.</p>
+      <p>
+        <a class="cta" href="mailto:support@DEINE-DOMAIN.tld?subject=PhaseMate%20Support">support@DEINE-DOMAIN.tld</a>
+      </p>
+      <p class="muted">Tipp: Ersetze die Adresse oben mit deiner echten Support‑E-Mail (z. B. <code>support@phasemate.app</code> oder eine dedizierte Gmail-Adresse).</p>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>FAQ</h2>
+        <ul>
+          <li><strong>Wie setze ich ein Spiel zurück?</strong><br>Öffne die Spielhistorie &rarr; wähle das Spiel &rarr; <em>Löschen</em>.</li>
+          <li><strong>Kann ich offline spielen?</strong><br>Ja. Alle Daten werden lokal auf deinem Gerät gespeichert.</li>
+          <li><strong>Wie exportiere ich Daten?</strong><br>Unter <em>Einstellungen</em> findest du <em>Exportieren</em> für CSV/JSON.</li>
+          <li><strong>Wie melde ich einen Fehler?</strong><br>Sende uns eine Beschreibung und, wenn möglich, einen Screenshot an die Support‑E‑Mail.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Datenschutz</h2>
+        <p>PhaseMate sammelt ohne deine Zustimmung keine personenbezogenen Daten. Analysen (sofern aktiviert) dienen ausschließlich der Produktverbesserung.</p>
+        <p><a class="cta" href="#privacy">Datenschutzhinweise</a></p>
+        <p class="muted">Hinweis: Falls du eine separate Datenschutzerklärung hostest, verlinke sie hier.</p>
+      </div>
+    </section>
+
+    <section id="privacy">
+      <h2>Kurze Datenschutzhinweise</h2>
+      <p>Verantwortlich: <em>Dein Unternehmen / Entwicklername</em></p>
+      <ul>
+        <li>Speicherung: Spielstände lokal auf dem Gerät.</li>
+        <li>Analyse (optional): Anonymisierte Nutzungsdaten, kein Tracking über Apps/Webseiten hinweg.</li>
+        <li>Kontakt: E‑Mails an die Supportadresse werden zur Bearbeitung gespeichert.</li>
+        <li>Rechte: Auskunft, Löschung, Berichtigung – kontaktiere uns per E‑Mail.</li>
+      </ul>
+      <p class="muted">Für eine umfassende Richtlinie verlinke bitte deine vollständige Datenschutzerklärung.</p>
+    </section>
+
+    <section>
+      <h2>Version & Rechtliches</h2>
+      <p>App: PhaseMate • Plattform: iOS</p>
+      <p>Letzte Aktualisierung dieser Seite: <time datetime="2025-08-15">15.08.2025</time></p>
+      <p class="muted">© <span id="year"></span> Dein Name. Alle Rechte vorbehalten.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p class="muted">Impressum/Kontaktadresse nach lokalem Recht erforderlich? Füge hier deine Unternehmensangaben hinzu.</p>
+  </footer>
+
+  <!-- Optional: strukturierte Daten für FAQ (hilft bei Google, schadet nie) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Wie setze ich ein Spiel zurück?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Öffne die Spielhistorie → wähle das Spiel → Löschen." }
+      },
+      {
+        "@type": "Question",
+        "name": "Kann ich offline spielen?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Ja, alle Daten werden lokal auf dem Gerät gespeichert." }
+      },
+      {
+        "@type": "Question",
+        "name": "Wie exportiere ich Daten?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Unter Einstellungen findest du Exportieren für CSV/JSON." }
+      },
+      {
+        "@type": "Question",
+        "name": "Wie melde ich einen Fehler?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Sende eine Beschreibung und ggf. einen Screenshot an die Support‑E‑Mail." }
+      }
+    ]
+  }
+  </script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
