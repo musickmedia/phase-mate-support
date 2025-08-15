@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PhaseMate – Datenschutzerklärung / Privacy Policy</title>
+  <meta name="description" content="Datenschutzerklärung (DE) und Privacy Policy (EN) für die iOS-App PhaseMate.">
+  <style>
+    :root { --max: 900px; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, sans-serif; line-height: 1.6; color: #0f172a; background: #f8fafc; }
+    header { background: #111827; color: #fff; padding: 2.25rem 1rem; }
+    header .wrap { max-width: var(--max); margin: 0 auto; display: grid; gap: .35rem; }
+    header h1 { margin: 0; font-size: 1.75rem; }
+    header p { margin: 0; opacity: .85; }
+    main { max-width: var(--max); margin: 0 auto; padding: 2rem 1rem 3rem; }
+    section { background: #fff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 1.25rem; margin-bottom: 1rem; }
+    h2 { margin-top: 0; font-size: 1.25rem; }
+    .muted { color: #64748b; }
+    .lang-switch { display: flex; gap: .5rem; font-size: .95rem; }
+    .lang-switch a { text-decoration: none; border: 1px solid #e5e7eb; padding: .35rem .6rem; border-radius: 8px; }
+    .lang-switch a:hover { background: #111827; color: #fff; }
+    ul { padding-left: 1.2rem; }
+    footer { max-width: var(--max); margin: 0 auto; padding: 2rem 1rem 4rem; color: #475569; font-size: .95rem; }
+    code { background: #f1f5f9; padding: .1rem .35rem; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>PhaseMate – Datenschutzerklärung / Privacy Policy</h1>
+      <p class="lang-switch"><a href="#de">Deutsch</a> • <a href="#en">English</a></p>
+    </div>
+  </header>
+
+  <main>
+    <section id="de">
+      <h2>Datenschutzerklärung (DE)</h2>
+      <p><strong>Letzte Aktualisierung:</strong> <time datetime="2025-08-15">15.08.2025</time></p>
+      <p>Diese App erfasst, speichert oder übermittelt <strong>keine personenbezogenen Daten</strong>.</p>
+      <ul>
+        <li><strong>Lokale Speicherung:</strong> Spielstände und Einstellungen werden ausschließlich lokal auf Ihrem Gerät gespeichert.</li>
+        <li><strong>Kein Tracking:</strong> Es findet kein Tracking über Apps oder Webseiten hinweg statt.</li>
+        <li><strong>Keine Drittanbieter-SDKs:</strong> Es werden keine Analyse-, Werbe- oder Social-Media-SDKs eingebunden.</li>
+        <li><strong>Netzwerkzugriffe:</strong> Nur, wenn Sie aktiv Funktionen nutzen, die eine Verbindung erfordern (z.&nbsp;B. Datensicherung), werden die dafür notwendigen Anfragen ausgeführt.</li>
+      </ul>
+      <p><strong>Ihre Rechte:</strong> Sie haben das Recht auf Auskunft, Berichtigung und Löschung Ihrer Daten. Da die App keine personenbezogenen Daten verarbeitet, können entsprechende Anfragen in der Regel unmittelbar beantwortet werden.</p>
+      <p><strong>Kontakt:</strong> <a href="mailto:info@musick.media">info@musick.media</a></p>
+      <p class="muted">Hinweis: Bei Änderungen der App-Funktionen wird diese Erklärung aktualisiert.</p>
+    </section>
+
+    <section id="en">
+      <h2>Privacy Policy (EN)</h2>
+      <p><strong>Last updated:</strong> <time datetime="2025-08-15">Aug 15, 2025</time></p>
+      <p>This app does <strong>not collect, store, or transmit any personal data</strong>.</p>
+      <ul>
+        <li><strong>Local Storage:</strong> Game progress and settings are stored on your device only.</li>
+        <li><strong>No Tracking:</strong> There is no cross-app or cross-website tracking.</li>
+        <li><strong>No Third-Party SDKs:</strong> The app does not integrate analytics, advertising, or social SDKs.</li>
+        <li><strong>Network Access:</strong> Only when you actively use features that require a connection (e.g., backup) will the necessary requests be made.</li>
+      </ul>
+      <p><strong>Your Rights:</strong> You may request access to, correction of, or deletion of your data. Since the app does not process personal data, such requests can typically be answered immediately.</p>
+      <p><strong>Contact:</strong> <a href="mailto:info@musick.media">info@musick.media</a></p>
+      <p class="muted">Note: This policy will be updated if app features change.</p>
+    </section>
+
+    <section>
+      <h2>Impressum / Legal</h2>
+      <p>Verantwortlich: <em>Dein Unternehmen / Entwicklername</em></p>
+      <p class="muted">Falls in deinem Land ein Impressum erforderlich ist, füge hier deine Unternehmensangaben hinzu (Adresse, Vertretung, Kontakt).</p>
+    </section>
+  </main>
+
+  <footer>
+    <p class="muted">© <span id="year"></span> PhaseMate.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
